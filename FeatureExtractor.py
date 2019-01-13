@@ -18,10 +18,14 @@ def percentages_upper_lower(line):
             total_no_letters -= 1
         else:
             pass
-    upper_case_percentage = round(((no_upper_case_letters / total_no_letters) * 100))
-    # print(f"Upper Case: {upper_case_percentage}")
-    lower_case_percentage = round(((no_lower_case_letters / total_no_letters) * 100))
-    # print(f"Lower Case: {lower_case_percentage}")
+    if total_no_letters == 0:
+        upper_percentage = 0
+        lower_percentage = 0
+    else:
+        upper_case_percentage = round(((no_upper_case_letters / total_no_letters) * 100))
+        # print(f"Upper Case: {upper_case_percentage}")
+        lower_case_percentage = round(((no_lower_case_letters / total_no_letters) * 100))
+        # print(f"Lower Case: {lower_case_percentage}")
     return upper_case_percentage, lower_case_percentage
 
 with open('asin_test.txt','r') as fi:
