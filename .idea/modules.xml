@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/FinalProject_WorkingCopy.iml" filepath="$PROJECT_DIR$/.idea/FinalProject_WorkingCopy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../numpy-practice/.idea/numpy-practice.iml" filepath="$PROJECT_DIR$/../numpy-practice/.idea/numpy-practice.iml" />
     </modules>
   </component>
 </project>

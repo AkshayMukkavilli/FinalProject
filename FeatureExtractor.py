@@ -77,7 +77,7 @@ for asin in ASIN_list:
 
     fr_1 = open(asin+'metadata.csv','r',encoding='utf-8')
     # metadata =  fr_1.readlines()
-    metadata=pd.read_csv(asin+"metadata.csv", header= None, names=["Date","Stars","Helpful Votes"])
+    metadata=pd.read_csv(asin+"metadata.csv", header= None, names=["Date","Stars","Helpful Votes"], thousands=',')
     df = pd.DataFrame(metadata)
     df['Z_Score_HelpfulVotes'] = (df['Helpful Votes'] - df['Helpful Votes'].mean()) / df['Helpful Votes'].std(ddof=0)
     df['Words']= words_per_review_list

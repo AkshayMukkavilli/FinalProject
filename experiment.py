@@ -235,9 +235,6 @@ for asin in ASIN_list:
                             helpful_votes = helpful_votes.replace(' people' , '')
                         elif 'One person' in helpful_votes:
                             helpful_votes = helpful_votes.replace('One person', '1')
-                    if ',' in helpful_votes:
-                        helpful_votes = helpful_votes.replace(',', '')
-                    # print(helpful_votes)
 
 
                     fa.write(date + ',' + stars + ',' + helpful_votes  + "\n")
