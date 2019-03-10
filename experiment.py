@@ -232,10 +232,9 @@ for asin in ASIN_list:
                     if helpful_votes != '0':
                         helpful_votes = helpful_votes.replace(' found this helpful</span>', '')
                         if 'people' in helpful_votes:
-                            helpful_votes = helpful_votes.replace(' people','')
+                            helpful_votes = helpful_votes.replace(' people' , '')
                         elif 'One person' in helpful_votes:
-                            helpful_votes = helpful_votes.replace('One person','1')
-                    # print(helpful_votes)
+                            helpful_votes = helpful_votes.replace('One person', '1')
 
 
                     fa.write(date + ',' + stars + ',' + helpful_votes  + "\n")

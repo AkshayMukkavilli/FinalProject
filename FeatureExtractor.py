@@ -18,10 +18,14 @@ def percentages_upper_lower(line):
             total_no_letters -= 1
         else:
             pass
-    upper_case_percentage = round(((no_upper_case_letters / total_no_letters) * 100))
-    # print(f"Upper Case: {upper_case_percentage}")
-    lower_case_percentage = round(((no_lower_case_letters / total_no_letters) * 100))
-    # print(f"Lower Case: {lower_case_percentage}")
+    if total_no_letters == 0:
+        upper_percentage = 0
+        lower_percentage = 0
+    else:
+        upper_case_percentage = round(((no_upper_case_letters / total_no_letters) * 100))
+        # print(f"Upper Case: {upper_case_percentage}")
+        lower_case_percentage = round(((no_lower_case_letters / total_no_letters) * 100))
+        # print(f"Lower Case: {lower_case_percentage}")
     return upper_case_percentage, lower_case_percentage
 
 with open('asin_test.txt','r') as fi:
@@ -73,7 +77,7 @@ for asin in ASIN_list:
 
     fr_1 = open(asin+'metadata.csv','r',encoding='utf-8')
     # metadata =  fr_1.readlines()
-    metadata=pd.read_csv(asin+"metadata.csv", header= None, names=["Date","Stars","Helpful Votes"])
+    metadata=pd.read_csv(asin+"metadata.csv", header= None, names=["Date","Stars","Helpful Votes"], thousands=',')
     df = pd.DataFrame(metadata)
     df['Z_Score_HelpfulVotes'] = (df['Helpful Votes'] - df['Helpful Votes'].mean()) / df['Helpful Votes'].std(ddof=0)
     df['Words']= words_per_review_list
