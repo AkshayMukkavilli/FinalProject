@@ -91,23 +91,30 @@ for asin in ASIN_list:
 
     page = 1
     fw = open(asin + '.txt', 'w+', encoding="utf-8")
-    while page <= iterator:
+    while page <= 500:
         print("Now, working on page: ", page)
         review_link_with_pageno = total_link + str(page)
         header_1 = {'User-Agent': users[random.randint(0, len(users) - 1)]}
         source_code_1 = requests.get(review_link_with_pageno, headers=header_1)
         plain_code = source_code_1.text
+        # print(plain_code)
         soup_1 = BeautifulSoup(plain_code, "lxml")
-        reviews = soup_1.findAll('span', {'class': "a-size-base review-text", 'data-hook': "review-body"})
+        reviews = soup_1.findAll('span', {'class': "a-size-base review-text review-text-content", 'data-hook': "review-body"})
         # The type of reviews is <class 'bs4.element.ResultSet'>
         # Thus, converting it into string format below
         str_reviews = str(reviews)
-        one_review_per_line = str_reviews.replace('[<span class="a-size-base review-text" data-hook="review-body">', '')
-        one_review_per_line = str_reviews.replace('<span class="a-size-base review-text" data-hook="review-body">', '')
-        one_review_per_line = one_review_per_line.replace('</span>,', '\n')
-        one_review_per_line = one_review_per_line.replace('</span>]','')
+
+        one_review_per_line = str_reviews.replace('<span class="a-size-base review-text review-text-content" data-hook="review-body"><span class="">','')
+        one_review_per_line = one_review_per_line.replace('</span>,', '')
+        # Eliminating the </span. tag
+        one_review_per_line = one_review_per_line.replace('</span>', '')
+        # Eliminating the first and the last characters which are '[' and ']'.
         one_review_per_line = one_review_per_line.replace(one_review_per_line[0], ' ')
-        if len(one_review_per_line) < 3 and one_review_per_line[1]=="]":
+        one_review_per_line = one_review_per_line.replace(one_review_per_line[-2:], '')
+        # print(one_review_per_line)
+        # print(f"this is one_review per line: {one_review_per_line}")
+
+        if len(one_review_per_line) < 2:
             print("the data could not be retrieved from the page: ", page)
             one_review_per_line = ""
         if one_review_per_line !="":
@@ -156,8 +163,8 @@ for asin in ASIN_list:
                 for rev in soup_1.findAll('div', {'data-hook': "review", 'class': "a-section review aok-relative"}):
                     just_one_review_out_of_10 = str(rev)
                     mini_soup = BeautifulSoup(just_one_review_out_of_10, "lxml")
-                    print(rev.prettify())
-                    print("\n\n\n")
+                    # print(rev.prettify()
+                    # print("\n\n\n")
 
 
                     # mini_content_for_xpath = html.fromstring(mini_soup.text)
@@ -207,14 +214,18 @@ for asin in ASIN_list:
 
                     fa.write(date + ',' + stars + ',' + helpful_votes  + "\n")
                 for title in soup_1.findAll('a', {'data-hook': "review-title",
-                                                  'class': "a-size-base a-link-normal review-title a-color-base review-title-content a-text-bold"}).text():
+                                                  'class': "a-size-base a-link-normal review-title a-color-base review-title-content a-text-bold"}):
+                    # print(f" \n\n\nthe title in soup_1.findAll() is : {title}\n\n\n")
+
                     total_review_titles = ''
                     title = str(title)
-                    print(title)
-                    title = title[194:]
-                    if title[0] == '>':
+                    title = title[230:]
+                    title = title.replace('</span>\n','')
+                    if title[0] == 'an>':
                         title = title[1:]
                     title = title.replace('</a>', '')
+                    if title[0]=='>':
+                        title = title.replace(title[0],'')
                     # print(f" Title Upper : {title_lower_percentage} \n Title Lower:{ title_upper_percentage}")
                     # print("====================================================")
 
