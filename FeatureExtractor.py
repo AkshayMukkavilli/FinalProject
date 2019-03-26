@@ -1,5 +1,6 @@
 import re
 import pandas as pd
+import numpy as np
 
 ASIN_list = []
 
@@ -19,8 +20,8 @@ def percentages_upper_lower(line):
         else:
             pass
     if total_no_letters == 0:
-        upper_percentage = 0
-        lower_percentage = 0
+        upper_case_percentage = 0
+        lower_case_percentage = 0
     else:
         upper_case_percentage = round(((no_upper_case_letters / total_no_letters) * 100))
         # print(f"Upper Case: {upper_case_percentage}")
@@ -38,9 +39,12 @@ for asin in ASIN_list:
     break_tags_per_review = []
     upper_percentage_list = []
     lower_percentage_list = []
-    fr = open(asin+".txt",'r',encoding='utf-8')
+    fr = open('./review_data/'+asin+".txt",'r',encoding='utf-8')
+    counter = 0
     for f_line in fr.readlines():
         temp_sum = 0
+        print(f"this is f_line: {f_line} in the {counter}th iteration \n")
+        counter += 1
         upper_percentage, lower_percentage = percentages_upper_lower(f_line)
         upper_percentage_list.append(upper_percentage)
         lower_percentage_list.append(lower_percentage)
@@ -75,10 +79,9 @@ for asin in ASIN_list:
 
 
 
-    fr_1 = open(asin+'metadata.csv','r',encoding='utf-8')
+    fr_1 = open('./review_data/'+asin+'metadata.csv','r',encoding='utf-8')
     # metadata =  fr_1.readlines()
-    metadata=pd.read_csv(asin+"metadata.csv", header= None, names=["Date","Stars","Helpful Votes"], thousands=',')
-    df = pd.DataFrame(metadata)
+    df = pd.read_csv('./review_data/'+asin+"metadata.csv", header= None, names=["Date","Stars","Helpful Votes"], thousands=r',', index_col=False)
     df['Z_Score_HelpfulVotes'] = (df['Helpful Votes'] - df['Helpful Votes'].mean()) / df['Helpful Votes'].std(ddof=0)
     df['Words']= words_per_review_list
     df['Z_Score_Words'] = (df['Words'] - df['Words'].mean()) / df['Words'].std(ddof=0)
@@ -89,5 +92,5 @@ for asin in ASIN_list:
     df['Percentage_Upper_Case']= upper_percentage_list
     df['Percentage_Lower_Case'] = lower_percentage_list
     df['Avg_len_paragraph_per_review'] = avg_len_paragraphs_per_review
-    print(df)
-    df.to_csv(asin+'metadata.csv',index=False, header=True)
+    df.to_csv('./review_data/'+asin+'metadata.csv',index=False, header=True)
+    fr_1.close()

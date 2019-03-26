@@ -11,7 +11,6 @@ from bs4 import BeautifulSoup
 from lxml import html
 import random
 import re
-# import proxies
 import time
 
 
@@ -38,6 +37,30 @@ users = [
 ]
 
 
+def percentages_upper_lower(line):
+    """ This is the function to calculate the percentage of upper case and lower
+    case letters in a given line
+    """
+    no_upper_case_letters = 0
+    no_lower_case_letters = 0
+    total_no_letters = (len(line) - 1)
+    # total - 1 since every line has a \n at the end of the line
+    for l in line[:-1]:
+        if l.islower():
+            no_lower_case_letters += 1
+        elif l.isupper():
+            no_upper_case_letters += 1
+        elif l.isspace():
+            total_no_letters -= 1
+        else:
+            pass
+    upper_case_percentage = round(((no_upper_case_letters / total_no_letters) * 100))
+    # print(f"Upper Case: {upper_case_percentage}")
+    lower_case_percentage = round(((no_lower_case_letters / total_no_letters) * 100))
+    # print(f"Lower Case: {lower_case_percentage}")
+    return upper_case_percentage, lower_case_percentage
+
+
 header = {'User-Agent': users[random.randint(0, len(users) - 1)]}
 ASIN_list = []
 with open('asin_test.txt','r') as fi:
@@ -52,11 +75,6 @@ for asin in ASIN_list:
     print("Working on the product wiith ASIN: ",ASIN_list[i])
     #url = "https://www.amazon.com/dp/" + ASIN_list[i]
     url = "https://www.amazon.com/dp/" + asin
-
-    # proxies
-
-
-
     source_code = requests.get(url, headers=header)
     plain_text = source_code.text
     soup = BeautifulSoup(plain_text, "lxml")
@@ -86,12 +104,16 @@ for asin in ASIN_list:
         iterator = int(str_no_of_reviews/10)
     else:
         iterator += 1
+
+
     print("The product has ", iterator , "pages of reviews")
+    if iterator > 500:
+        iterator = 500
 
 
     page = 1
-    fw = open(asin + '.txt', 'w+', encoding="utf-8")
-    while page <= 500:
+    fw = open('./review_data/'+asin + '.txt', 'w+', encoding="utf-8")
+    while page <= iterator:
         print("Now, working on page: ", page)
         review_link_with_pageno = total_link + str(page)
         header_1 = {'User-Agent': users[random.randint(0, len(users) - 1)]}
@@ -135,31 +157,8 @@ for asin in ASIN_list:
         4. Percentage of upper case letters in each review
         5. Percentage of lower case letters in each review
         '''
-
-
-        def percentages_upper_lower(line):
-            no_upper_case_letters = 0
-            no_lower_case_letters = 0
-            total_no_letters = (len(line)-1)
-            # total - 1 since every line has a \n at the end of the line
-            for l in line[:-1]:
-                if l.islower():
-                    no_lower_case_letters += 1
-                elif l.isupper():
-                    no_upper_case_letters += 1
-                elif l.isspace():
-                    total_no_letters -= 1
-                else:
-                    pass
-            upper_case_percentage = round(((no_upper_case_letters / total_no_letters) * 100))
-            # print(f"Upper Case: {upper_case_percentage}")
-            lower_case_percentage = round(((no_lower_case_letters / total_no_letters) * 100))
-            # print(f"Lower Case: {lower_case_percentage}")
-            return upper_case_percentage, lower_case_percentage
-
-
-        with open(asin + 'metadata.csv', 'a') as fa:
-            with open(asin + 'titles.txt', 'a', encoding="utf-8") as fs:
+        with open('./review_data/'+asin + 'metadata.csv', 'a') as fa:
+            with open('./review_data/'+asin + 'titles.txt', 'a', encoding="utf-8") as fs:
                 for rev in soup_1.findAll('div', {'data-hook': "review", 'class': "a-section review aok-relative"}):
                     just_one_review_out_of_10 = str(rev)
                     mini_soup = BeautifulSoup(just_one_review_out_of_10, "lxml")
@@ -210,37 +209,36 @@ for asin in ASIN_list:
                             helpful_votes = helpful_votes.replace(' people' , '')
                         elif 'One person' in helpful_votes:
                             helpful_votes = helpful_votes.replace('One person', '1')
+                    if ',' in helpful_votes:
+                        helpful_votes = helpful_votes.replace(',','')
 
 
                     fa.write(date + ',' + stars + ',' + helpful_votes  + "\n")
+
+                """ 
+                Here we are trying to grab the titles of reviews
+                """
+
                 for title in soup_1.findAll('a', {'data-hook': "review-title",
                                                   'class': "a-size-base a-link-normal review-title a-color-base review-title-content a-text-bold"}):
-                    # print(f" \n\n\nthe title in soup_1.findAll() is : {title}\n\n\n")
 
                     total_review_titles = ''
-                    title = str(title)
-                    title = title[230:]
-                    title = title.replace('</span>\n','')
-                    if title[0] == 'an>':
-                        title = title[1:]
-                    title = title.replace('</a>', '')
-                    if title[0]=='>':
-                        title = title.replace(title[0],'')
-                    # print(f" Title Upper : {title_lower_percentage} \n Title Lower:{ title_upper_percentage}")
-                    # print("====================================================")
-
+                    title = title.span.text
                     total_review_titles = total_review_titles + title + '\n'
                     fs.write(total_review_titles)
     i += 1
     fw.write(total_reviews)
     fw.close()
 
-    with open(asin +'titles.txt','r', encoding="utf-8") as title_read:
-        with open(asin + 'titles_metadata.csv', 'w+') as title_write:
+    with open('./review_data/'+asin +'titles.txt','r', encoding="utf-8") as title_read:
+        with open('./review_data/'+asin + 'titles_metadata.csv', 'w+') as title_write:
             for t_line in title_read.readlines():
                 title_lower_percentage = 0
                 title_upper_percentage = 0
-                title_upper_percentage, title_lower_percentage = percentages_upper_lower(t_line)
+                try:
+                    title_upper_percentage, title_lower_percentage = percentages_upper_lower(t_line)
+                except:
+                    title_upper_percentage, title_lower_percentage = None, None
                 no_words_in_title = len(t_line.split())
                 length_title = len(t_line)-1
                 title_metadata = str(no_words_in_title) + ',' + str(length_title) + ',' + str(title_upper_percentage) + ',' + str(title_lower_percentage) +'\n'

@@ -3,15 +3,19 @@
   <component name="ChangeListManager">
     <list default="true" id="629f2689-6aaf-4685-a0f1-a7890925412c" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/B000XYWQXM.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/B01K9S260E.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/B06XRLR9RQ.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/B073GPB981.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/0307950689.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/B00YNTTTSI.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/B00YNTTTSImetadata.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/B00YNTTTSItitles.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/B00YNTTTSItitles_metadata.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FeatureExtractor.py" beforeDir="false" afterPath="$PROJECT_DIR$/FeatureExtractor.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Machine Learning Notebooks/(BEST)Standardized ANN (With Z-Scores- Deep and Wide).ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Machine Learning Notebooks/(BEST)Standardized ANN (With Z-Scores- Deep and Wide).ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Machine Learning Notebooks/(STANDARDISED)Deep&amp;Wide ANN.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Machine Learning Notebooks/(STANDARDISED)Deep&amp;Wide ANN.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Machine Learning Notebooks/ANN(Actual Votes) (NODES 7-100-100-1).ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Machine Learning Notebooks/ANN(Actual Votes) (NODES 7-100-100-1).ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Machine Learning Notebooks/ANN(Deep and Wide with High Nodes Vs Low Nodes).ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Machine Learning Notebooks/ANN(Deep and Wide with High Nodes Vs Low Nodes).ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Regression.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Regression.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MergerOfFiles.py" beforeDir="false" afterPath="$PROJECT_DIR$/MergerOfFiles.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReviewGrabber_reengineered.py" beforeDir="false" afterPath="$PROJECT_DIR$/ReviewGrabber_reengineered.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/asin_test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/asin_test.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/experiment.py" beforeDir="false" afterPath="$PROJECT_DIR$/experiment.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/asins.txt" beforeDir="false" afterPath="$PROJECT_DIR$/asins.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,20 +26,24 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/FinalProject_WorkingCopy$first_numpy_program.coverage" NAME="first_numpy_program Coverage Results" MODIFIED="1547605454569" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../numpy-practice" />
     <SUITE FILE_PATH="coverage/FinalProject_WorkingCopy$proxies.coverage" NAME="proxies Coverage Results" MODIFIED="1553037231890" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/WorkingCopy$merger_features_titles.coverage" NAME="merger_features&amp;titles Coverage Results" MODIFIED="1553460286029" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/FinalProject_WorkingCopy$experiment.coverage" NAME="experiment Coverage Results" MODIFIED="1553037799490" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/WorkingCopy$FeatureExtractor.coverage" NAME="FeatureExtractor Coverage Results" MODIFIED="1553449259805" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/FinalProject_WorkingCopy$ml.coverage" NAME="ml Coverage Results" MODIFIED="1547692491649" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/WorkingCopy$experiment.coverage" NAME="experiment Coverage Results" MODIFIED="1553177926249" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/WorkingCopy$experiment.coverage" NAME="experiment Coverage Results" MODIFIED="1553441326112" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/FinalProject_WorkingCopy$ASIN_Grabber.coverage" NAME="ASIN_Grabber Coverage Results" MODIFIED="1547330802775" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/FinalProject_WorkingCopy$MergerOfFiles.coverage" NAME="MergerOfFiles Coverage Results" MODIFIED="1552255014982" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/FinalProject_WorkingCopy$FeatureExtractor.coverage" NAME="FeatureExtractor Coverage Results" MODIFIED="1552256216766" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/WorkingCopy$MergerOfFiles.coverage" NAME="MergerOfFiles Coverage Results" MODIFIED="1553459728906" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/WorkingCopy$FeaturesWithTitles.coverage" NAME="FeaturesWithTitles Coverage Results" MODIFIED="1553459582191" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/experiment.py">
+        <entry file="file://$PROJECT_DIR$/ReviewGrabber_reengineered.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="875">
-              <caret line="93" column="21" selection-start-line="93" selection-start-column="21" selection-end-line="93" selection-end-column="21" />
+            <state relative-caret-position="-2328">
+              <caret line="65" column="37" selection-start-line="65" selection-start-column="37" selection-end-line="65" selection-end-column="37" />
               <folding>
                 <element signature="e#303#318#0" expanded="true" />
               </folding>
@@ -43,32 +51,25 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/merger_features&amp;titles.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Final_Features_With_Titles">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/B00YNTTTSI.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="1" selection-start-column="1" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/asin_test.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="10" lean-forward="true" selection-start-column="10" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/FeatureExtractor.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1200">
-              <caret line="80" column="31" selection-start-line="80" selection-start-column="31" selection-end-line="80" selection-end-column="31" />
-              <folding>
-                <element signature="e#0#9#0" expanded="true" />
-              </folding>
+        <entry file="file://$PROJECT_DIR$/FinalFeatures_latest.csv">
+          <provider selected="true" editor-type-id="csv-text-editor">
+            <state relative-caret-position="4275">
+              <caret line="5556" selection-start-line="5556" selection-end-line="5556" />
             </state>
           </provider>
         </entry>
@@ -83,10 +84,45 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/FeatureExtractor.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="301">
+              <caret line="83" column="21" selection-start-line="83" selection-start-column="21" selection-end-line="83" selection-end-column="58" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+                <element signature="e#87#933#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/asin_test.txt">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Merger_Final.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="90">
-              <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+              <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/review_data/B0192CTMYGtitles_metadata.csv">
+          <provider selected="true" editor-type-id="csv-text-editor" />
+          <provider editor-type-id="csv-table-editor">
+            <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/asins.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="10" selection-start-column="10" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -114,6 +150,9 @@
       <find>&lt;span class=&quot;a-size-base review-text review-text-content&quot; data-hook=&quot;review-body&quot;&gt;&lt;span class=&quot;&quot;&gt;</find>
       <find>&lt;span class=&quot;&quot;&gt;</find>
       <find>&lt;span class=&quot;a-size-base review-text review-text-content&quot; data-hook=&quot;review-body&quot;&gt;</find>
+      <find>asin</find>
+      <find>open</find>
+      <find>data_files</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -122,21 +161,25 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/FeatureExtractor.py" />
-        <option value="$PROJECT_DIR$/asins.txt" />
         <option value="$PROJECT_DIR$/../numpy-practice/first_numpy_program.py" />
         <option value="$PROJECT_DIR$/ml.ipynb" />
         <option value="$PROJECT_DIR$/venv/FinalMerger.py" />
-        <option value="$PROJECT_DIR$/MergerOfFiles.py" />
-        <option value="$PROJECT_DIR$/Merger_Final.py" />
         <option value="$PROJECT_DIR$/proxies.py" />
-        <option value="$PROJECT_DIR$/asin_test.txt" />
         <option value="$PROJECT_DIR$/experiment.py" />
         <option value="$PROJECT_DIR$/B00YNTTTSI.txt" />
+        <option value="$PROJECT_DIR$/data_files/B0192CTMYGmetadata.csv" />
+        <option value="$PROJECT_DIR$/asin_test.txt" />
+        <option value="$PROJECT_DIR$/ReviewGrabber_reengineered.py" />
+        <option value="$PROJECT_DIR$/FeatureExtractor.py" />
+        <option value="$PROJECT_DIR$/asins.txt" />
+        <option value="$PROJECT_DIR$/FeaturesWithTitles.py" />
+        <option value="$PROJECT_DIR$/MergerOfFiles.py" />
+        <option value="$PROJECT_DIR$/Merger_Final.py" />
+        <option value="$PROJECT_DIR$/merger_features&amp;titles.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
     <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="877" />
@@ -177,7 +220,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.experiment">
+  <component name="RunManager" selected="Python.merger_features&amp;titles">
     <configuration name="FeatureExtractor" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="FinalProject_WorkingCopy" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -192,6 +235,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/FeatureExtractor.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="FeaturesWithTitles" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="FinalProject_WorkingCopy" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/FeaturesWithTitles.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -244,29 +309,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="first_numpy_program" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="numpy-practice" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../numpy-practice" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../numpy-practice/first_numpy_program.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="true" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="proxies" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="merger_features&amp;titles" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="FinalProject_WorkingCopy" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -279,7 +322,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/proxies.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/merger_features&amp;titles.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -309,16 +352,16 @@
       <item itemvalue="Python.experiment" />
       <item itemvalue="Python.FeatureExtractor" />
       <item itemvalue="Python.MergerOfFiles" />
-      <item itemvalue="Python.first_numpy_program" />
-      <item itemvalue="Python.proxies" />
+      <item itemvalue="Python.FeaturesWithTitles" />
+      <item itemvalue="Python.merger_features&amp;titles" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.experiment" />
-        <item itemvalue="Python.proxies" />
-        <item itemvalue="Python.FeatureExtractor" />
+        <item itemvalue="Python.merger_features&amp;titles" />
         <item itemvalue="Python.MergerOfFiles" />
-        <item itemvalue="Python.first_numpy_program" />
+        <item itemvalue="Python.FeaturesWithTitles" />
+        <item itemvalue="Python.FeatureExtractor" />
+        <item itemvalue="Python.experiment" />
       </list>
     </recent_temporary>
   </component>
@@ -333,31 +376,33 @@
       <option name="presentableId" value="Default" />
       <updated>1547324752424</updated>
       <workItem from="1553088804282" duration="551000" />
-      <workItem from="1553090680919" duration="12055000" />
+      <workItem from="1553090680919" duration="12383000" />
+      <workItem from="1553180437268" duration="33842000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12606000" />
+    <option name="totallyTimeSpent" value="46776000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="877" extended-state="0" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16094421" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23247497" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49677765" weight="0.2522293" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.2541806" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32409638" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49677765" weight="0.2939759" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.25301206" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50322235" side_tool="true" weight="0.45218417" />
-      <window_info anchor="bottom" id="Python Console" order="8" sideWeight="0.49785176" weight="0.3293979" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32229298" />
+      <window_info anchor="bottom" id="Python Console" order="8" sideWeight="0.49785176" weight="0.32891566" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32168674" />
       <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="11" visible="true" weight="0.555414" />
+      <window_info anchor="bottom" id="Version Control" order="11" weight="0.22929937" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
       <window_info anchor="right" x="0" y="0" width="434" height="848" id="Documentation" order="0" weight="0.22610097" />
       <window_info anchor="right" id="Commander" order="1" weight="0.4" />
@@ -373,74 +418,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ASIN_Grabber.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="25" column="1" lean-forward="true" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/B06XSRLP51titles.txt" />
-    <entry file="file://$PROJECT_DIR$/B06XSRLP51titles_metadata.csv" />
-    <entry file="file://$PROJECT_DIR$/B01DM6BDA4.txt" />
-    <entry file="file://$PROJECT_DIR$/B01K9S260E.txt" />
-    <entry file="file://$PROJECT_DIR$/B01K9S260Emetadata.csv" />
-    <entry file="file://$PROJECT_DIR$/B01DM6BDA4titles_metadata.csv" />
-    <entry file="file://$PROJECT_DIR$/B000QSNYGImetadata.csv" />
-    <entry file="file://$PROJECT_DIR$/B06XSRLP51.txt" />
-    <entry file="file://$PROJECT_DIR$/B01DM6BDA4metadata.csv" />
-    <entry file="file://$PROJECT_DIR$/asins.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="3" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/B06XSRLP51metadata.csv" />
-    <entry file="file://$PROJECT_DIR$/B077SXWSRP.txt" />
-    <entry file="file://$PROJECT_DIR$/B077SXWSRPmetadata.csv" />
-    <entry file="file://$PROJECT_DIR$/B077SXWSRPtitles.txt" />
-    <entry file="file://$PROJECT_DIR$/venv/FinalFeatures.csv" />
-    <entry file="file://$PROJECT_DIR$/ml.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/B00N2ZDXW2titles.txt" />
-    <entry file="file://$PROJECT_DIR$/B00N2ZDXW2metadata.csv" />
-    <entry file="file://$PROJECT_DIR$/B00N2ZDXW2.txt" />
-    <entry file="file://$PROJECT_DIR$/venv/FinalMerger.py" />
-    <entry file="file://$PROJECT_DIR$/../numpy-practice/first_numpy_program.py" />
-    <entry file="file://$PROJECT_DIR$/0307950689metadata.csv" />
-    <entry file="file://$PROJECT_DIR$/0307950689titles.txt" />
-    <entry file="file://$PROJECT_DIR$/0307950689.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/B0087AQ0MC.txt" />
-    <entry file="file://$PROJECT_DIR$/FinalFeatures.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-639051">
-          <caret line="1" column="44" selection-start-line="1" selection-start-column="44" selection-end-line="1" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FinalFeatures_1.csv" />
-    <entry file="file://$PROJECT_DIR$/B01IEKG402metadata.csv" />
-    <entry file="file://$PROJECT_DIR$/B00GS8W3T4metadata.csv" />
-    <entry file="file://$PROJECT_DIR$/B0087AQ0MCmetadata.csv" />
-    <entry file="file://$PROJECT_DIR$/074349346X.txt" />
-    <entry file="file://$PROJECT_DIR$/074349346Xmetadata.csv" />
-    <entry file="file://$PROJECT_DIR$/asin_test2.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/B000XYWQXMtitles_metadata.csv" />
-    <entry file="file://$PROJECT_DIR$/B000XYWQXM.txt" />
     <entry file="file://$PROJECT_DIR$/B000XYWQXMmetadata.csv" />
     <entry file="file://$PROJECT_DIR$/B000XYWQXMtitles.txt" />
     <entry file="file://$PROJECT_DIR$/proxies.py">
@@ -453,10 +430,254 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Merger_Final.py">
+    <entry file="file://$PROJECT_DIR$/B06XRLR9RQmetadata.csv" />
+    <entry file="file://$PROJECT_DIR$/B06XRLR9RQtitles.txt" />
+    <entry file="file://$PROJECT_DIR$/B06XRLR9RQ.txt" />
+    <entry file="file://$PROJECT_DIR$/B00YNTTTSItitles_metadata.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/B00YNTTTSI.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/B00YNTTTSImetadata.csv">
+      <provider selected="true" editor-type-id="csv-text-editor" />
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+      <provider editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/B00YNTTTSItitles.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+        <state>
+          <caret lean-forward="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data_files/B00YNTTTSItitles.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data_files/B00YNTTTSItitles_metadata.csv">
+      <provider selected="true" editor-type-id="csv-text-editor" />
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data_files/B00YNTTTSI.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data_files/0062457713.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-74619">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data_files/0062457713metadata.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="-74779" />
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data_files/0062457713titles.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2529">
+          <caret line="4815" lean-forward="true" selection-start-line="4815" selection-end-line="4815" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data_files/0062457713titles_metadata.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="-67339">
+          <caret line="496" column="9" lean-forward="true" selection-start-line="496" selection-start-column="9" selection-end-line="496" selection-end-column="9" />
+        </state>
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data_files/B078GD3DRG.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data_files/B078GD3DRGtitles.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8154" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data_files/B0192CTMUU.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-74670" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data_files/B0192CTMUUtitles.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-74670" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data_files/B00YNTTTSImetadata.csv">
+      <provider selected="true" editor-type-id="csv-text-editor" />
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data_files/B0192CTMUUtitles_metadata.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="-74509" />
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data_files/B0192CTMUUmetadata.csv">
+      <provider selected="true" editor-type-id="csv-text-editor" />
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data_files/1501175513titles_metadata.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="-44717" />
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FinalFeatures.csv">
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="-700">
+          <caret line="30363" selection-start-line="30363" selection-end-line="30363" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="-639051">
+          <caret line="1" column="44" selection-start-line="1" selection-start-column="44" selection-end-line="1" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data_files/B0192CTMW8metadata.csv">
+      <provider selected="true" editor-type-id="csv-text-editor" />
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data_files/B0192CTMYG.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data_files/B0192CTMWSmetadata.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="-19424" />
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data_files/B078GD3DRGmetadata.csv">
+      <provider selected="true" editor-type-id="csv-text-editor" />
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/review_data/B0192CTMYGmetadata.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="-5962" />
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/review_data/0307474275metadata.csv">
+      <provider selected="true" editor-type-id="csv-text-editor" />
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/review_data/1451645856metadata.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="-182" />
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/review_data/B0192CTMYGtitles.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data_files/B0192CTMYGmetadata.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state>
+          <caret column="14" selection-start-column="14" selection-end-column="14" />
+        </state>
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/asins.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="10" selection-start-column="10" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/review_data/1250158060titles_metadata.csv">
+      <provider selected="true" editor-type-id="csv-text-editor" />
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/review_data/0307474275titles_metadata.csv">
+      <provider selected="true" editor-type-id="csv-text-editor" />
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/asin_test.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/review_data/B0192CTMYGtitles_metadata.csv">
+      <provider selected="true" editor-type-id="csv-text-editor" />
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/review_data/B0192CTMXMtitles_metadata.csv">
+      <provider selected="true" editor-type-id="csv-text-editor" />
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FeatureExtractor.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="301">
+          <caret line="83" column="21" selection-start-line="83" selection-start-column="21" selection-end-line="83" selection-end-column="58" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+            <element signature="e#87#933#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FinalTitles.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="-328952">
+          <caret line="78936" selection-start-line="78936" selection-end-line="78936" />
+        </state>
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ReviewGrabber_reengineered.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2328">
+          <caret line="65" column="37" selection-start-line="65" selection-start-column="37" selection-end-line="65" selection-end-column="37" />
+          <folding>
+            <element signature="e#303#318#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -467,60 +688,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/B06XRLR9RQmetadata.csv">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/B06XRLR9RQtitles.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/B06XRLR9RQ.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/B00YNTTTSImetadata.csv">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/B00YNTTTSItitles.txt">
+    <entry file="file://$PROJECT_DIR$/Merger_Final.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        <state relative-caret-position="90">
+          <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/B00YNTTTSItitles_metadata.csv">
+    <entry file="file:///anaconda3/envs/WorkingCopy/lib/python3.6/site-packages/pandas/core/reshape/concat.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="243" selection-start-line="243" selection-end-line="243" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FeaturesWithTitles.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/merger_features&amp;titles.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Final_Features_With_Titles">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/FeatureExtractor.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1200">
-          <caret line="80" column="31" selection-start-line="80" selection-start-column="31" selection-end-line="80" selection-end-column="31" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
+    <entry file="file://$PROJECT_DIR$/FinalFeatures_latest.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="4275">
+          <caret line="5556" selection-start-line="5556" selection-end-line="5556" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/asin_test.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="10" lean-forward="true" selection-start-column="10" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/experiment.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="875">
-          <caret line="93" column="21" selection-start-line="93" selection-start-column="21" selection-end-line="93" selection-end-column="21" />
-          <folding>
-            <element signature="e#303#318#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/B00YNTTTSI.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="1" selection-start-column="1" selection-end-column="1" />
-        </state>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
       </provider>
     </entry>
   </component>
