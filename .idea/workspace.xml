@@ -2,20 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="629f2689-6aaf-4685-a0f1-a7890925412c" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/0307950689.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/B00YNTTTSI.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/B00YNTTTSImetadata.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/B00YNTTTSItitles.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/B00YNTTTSItitles_metadata.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FeatureExtractor.py" beforeDir="false" afterPath="$PROJECT_DIR$/FeatureExtractor.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Machine Learning Notebooks/(BEST)Standardized ANN (With Z-Scores- Deep and Wide).ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Machine Learning Notebooks/(BEST)Standardized ANN (With Z-Scores- Deep and Wide).ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.ipynb_checkpoints/Regression-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Machine Learning Notebooks/(BEST)Standardized ANN (With Z-Scores- Deep and Wide).ipynb" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Machine Learning Notebooks/(STANDARDISED)Deep&amp;Wide ANN.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Machine Learning Notebooks/(STANDARDISED)Deep&amp;Wide ANN.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Machine Learning Notebooks/ANN(Actual Votes) (NODES 7-100-100-1).ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Machine Learning Notebooks/ANN(Actual Votes) (NODES 7-100-100-1).ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MergerOfFiles.py" beforeDir="false" afterPath="$PROJECT_DIR$/MergerOfFiles.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReviewGrabber_reengineered.py" beforeDir="false" afterPath="$PROJECT_DIR$/ReviewGrabber_reengineered.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asin_test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/asin_test.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asins.txt" beforeDir="false" afterPath="$PROJECT_DIR$/asins.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Machine Learning Notebooks/.ipynb_checkpoints/(BEST)Standardized ANN (With Z-Scores- Deep and Wide)-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Machine Learning Notebooks/.ipynb_checkpoints/New Data (BEST)Standardized ANN (With Z-Scores- Deep and Wide)-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Machine Learning Notebooks/New Data (BEST)Standardized ANN (With Z-Scores- Deep and Wide).ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Regression.ipynb" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -40,18 +35,6 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ReviewGrabber_reengineered.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2328">
-              <caret line="65" column="37" selection-start-line="65" selection-start-column="37" selection-end-line="65" selection-end-column="37" />
-              <folding>
-                <element signature="e#303#318#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/merger_features&amp;titles.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="135">
@@ -62,14 +45,30 @@
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Final_Features_With_Titles">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="83" selection-start-line="4" selection-start-column="83" selection-end-line="4" selection-end-column="83" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/FinalFeatures_latest.csv">
           <provider selected="true" editor-type-id="csv-text-editor">
-            <state relative-caret-position="4275">
+            <state relative-caret-position="83340">
               <caret line="5556" selection-start-line="5556" selection-end-line="5556" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/FinalTitles.csv">
+          <provider editor-type-id="csv-table-editor">
+            <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+          </provider>
+          <provider selected="true" editor-type-id="csv-text-editor">
+            <state relative-caret-position="162">
+              <caret line="78936" selection-start-line="78936" selection-end-line="78936" />
             </state>
           </provider>
         </entry>
@@ -86,11 +85,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/FeatureExtractor.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="301">
+            <state relative-caret-position="1215">
               <caret line="83" column="21" selection-start-line="83" selection-start-column="21" selection-end-line="83" selection-end-column="58" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
-                <element signature="e#87#933#0" />
               </folding>
             </state>
           </provider>
@@ -112,10 +110,10 @@
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/review_data/B0192CTMYGtitles_metadata.csv">
-          <provider selected="true" editor-type-id="csv-text-editor" />
           <provider editor-type-id="csv-table-editor">
             <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
           </provider>
+          <provider selected="true" editor-type-id="csv-text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -179,7 +177,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="877" />
@@ -189,7 +187,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -201,6 +198,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -378,17 +376,18 @@
       <workItem from="1553088804282" duration="551000" />
       <workItem from="1553090680919" duration="12383000" />
       <workItem from="1553180437268" duration="33842000" />
+      <workItem from="1553616698010" duration="3118000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46776000" />
+    <option name="totallyTimeSpent" value="49894000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="6" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23247497" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2353362" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -433,34 +432,18 @@
     <entry file="file://$PROJECT_DIR$/B06XRLR9RQmetadata.csv" />
     <entry file="file://$PROJECT_DIR$/B06XRLR9RQtitles.txt" />
     <entry file="file://$PROJECT_DIR$/B06XRLR9RQ.txt" />
-    <entry file="file://$PROJECT_DIR$/B00YNTTTSItitles_metadata.csv">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/B00YNTTTSI.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/B00YNTTTSImetadata.csv">
-      <provider selected="true" editor-type-id="csv-text-editor" />
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-      <provider editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/B00YNTTTSItitles.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/B00YNTTTSItitles_metadata.csv" />
+    <entry file="file://$PROJECT_DIR$/B00YNTTTSI.txt" />
+    <entry file="file://$PROJECT_DIR$/B00YNTTTSImetadata.csv" />
+    <entry file="file://$PROJECT_DIR$/B00YNTTTSItitles.txt" />
     <entry file="file://$PROJECT_DIR$/data_files/B00YNTTTSItitles.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/data_files/B00YNTTTSItitles_metadata.csv">
-      <provider selected="true" editor-type-id="csv-text-editor" />
       <provider editor-type-id="csv-table-editor">
         <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
       </provider>
+      <provider selected="true" editor-type-id="csv-text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/data_files/B00YNTTTSI.txt">
       <provider selected="true" editor-type-id="text-editor" />
@@ -473,11 +456,11 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/data_files/0062457713metadata.csv">
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="-74779" />
-      </provider>
       <provider editor-type-id="csv-table-editor">
         <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="-74779" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/data_files/0062457713titles.txt">
@@ -488,13 +471,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/data_files/0062457713titles_metadata.csv">
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
       <provider selected="true" editor-type-id="csv-text-editor">
         <state relative-caret-position="-67339">
           <caret line="496" column="9" lean-forward="true" selection-start-line="496" selection-start-column="9" selection-end-line="496" selection-end-column="9" />
         </state>
-      </provider>
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/data_files/B078GD3DRG.txt">
@@ -516,184 +499,123 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/data_files/B00YNTTTSImetadata.csv">
-      <provider selected="true" editor-type-id="csv-text-editor" />
       <provider editor-type-id="csv-table-editor">
         <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
       </provider>
+      <provider selected="true" editor-type-id="csv-text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/data_files/B0192CTMUUtitles_metadata.csv">
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
       <provider selected="true" editor-type-id="csv-text-editor">
         <state relative-caret-position="-74509" />
       </provider>
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/data_files/B0192CTMUUmetadata.csv">
-      <provider selected="true" editor-type-id="csv-text-editor" />
       <provider editor-type-id="csv-table-editor">
         <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
       </provider>
+      <provider selected="true" editor-type-id="csv-text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/data_files/1501175513titles_metadata.csv">
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="-44717" />
-      </provider>
       <provider editor-type-id="csv-table-editor">
         <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="-44717" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/FinalFeatures.csv">
       <provider editor-type-id="csv-table-editor">
         <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
       </provider>
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="-700">
-          <caret line="30363" selection-start-line="30363" selection-end-line="30363" />
-        </state>
-      </provider>
       <provider editor-type-id="text-editor">
         <state relative-caret-position="-639051">
           <caret line="1" column="44" selection-start-line="1" selection-start-column="44" selection-end-line="1" selection-end-column="44" />
         </state>
       </provider>
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="-700">
+          <caret line="30363" selection-start-line="30363" selection-end-line="30363" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/data_files/B0192CTMW8metadata.csv">
-      <provider selected="true" editor-type-id="csv-text-editor" />
       <provider editor-type-id="csv-table-editor">
         <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
       </provider>
+      <provider selected="true" editor-type-id="csv-text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/data_files/B0192CTMYG.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/data_files/B0192CTMWSmetadata.csv">
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
       <provider selected="true" editor-type-id="csv-text-editor">
         <state relative-caret-position="-19424" />
       </provider>
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/data_files/B078GD3DRGmetadata.csv">
-      <provider selected="true" editor-type-id="csv-text-editor" />
       <provider editor-type-id="csv-table-editor">
         <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
       </provider>
+      <provider selected="true" editor-type-id="csv-text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/review_data/B0192CTMYGmetadata.csv">
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
       <provider selected="true" editor-type-id="csv-text-editor">
         <state relative-caret-position="-5962" />
       </provider>
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/review_data/0307474275metadata.csv">
-      <provider selected="true" editor-type-id="csv-text-editor" />
       <provider editor-type-id="csv-table-editor">
         <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
       </provider>
+      <provider selected="true" editor-type-id="csv-text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/review_data/1451645856metadata.csv">
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="-182" />
-      </provider>
       <provider editor-type-id="csv-table-editor">
         <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="-182" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/review_data/B0192CTMYGtitles.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/data_files/B0192CTMYGmetadata.csv">
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
       <provider selected="true" editor-type-id="csv-text-editor">
         <state>
           <caret column="14" selection-start-column="14" selection-end-column="14" />
         </state>
       </provider>
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/asins.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="10" selection-start-column="10" selection-end-column="10" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/review_data/1250158060titles_metadata.csv">
-      <provider selected="true" editor-type-id="csv-text-editor" />
       <provider editor-type-id="csv-table-editor">
         <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
       </provider>
+      <provider selected="true" editor-type-id="csv-text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/review_data/0307474275titles_metadata.csv">
-      <provider selected="true" editor-type-id="csv-text-editor" />
       <provider editor-type-id="csv-table-editor">
         <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/asin_test.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/review_data/B0192CTMYGtitles_metadata.csv">
       <provider selected="true" editor-type-id="csv-text-editor" />
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/review_data/B0192CTMXMtitles_metadata.csv">
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
       <provider selected="true" editor-type-id="csv-text-editor" />
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FeatureExtractor.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="301">
-          <caret line="83" column="21" selection-start-line="83" selection-start-column="21" selection-end-line="83" selection-end-column="58" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-            <element signature="e#87#933#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FinalTitles.csv">
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="-328952">
-          <caret line="78936" selection-start-line="78936" selection-end-line="78936" />
-        </state>
-      </provider>
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ReviewGrabber_reengineered.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2328">
-          <caret line="65" column="37" selection-start-line="65" selection-start-column="37" selection-end-line="65" selection-end-column="37" />
-          <folding>
-            <element signature="e#303#318#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MergerOfFiles.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Merger_Final.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
-        </state>
-      </provider>
     </entry>
     <entry file="file:///anaconda3/envs/WorkingCopy/lib/python3.6/site-packages/pandas/core/reshape/concat.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -709,6 +631,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/ReviewGrabber_reengineered.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="900">
+          <caret line="65" column="37" selection-start-line="65" selection-start-column="37" selection-end-line="65" selection-end-column="37" />
+          <folding>
+            <element signature="e#303#318#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/merger_features&amp;titles.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -716,17 +648,71 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Final_Features_With_Titles">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FinalFeatures_latest.csv">
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="4275">
-          <caret line="5556" selection-start-line="5556" selection-end-line="5556" />
+    <entry file="file://$PROJECT_DIR$/MergerOfFiles.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FeatureExtractor.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1215">
+          <caret line="83" column="21" selection-start-line="83" selection-start-column="21" selection-end-line="83" selection-end-column="58" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/asin_test.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Merger_Final.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/review_data/B0192CTMYGtitles_metadata.csv">
       <provider editor-type-id="csv-table-editor">
         <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+      <provider selected="true" editor-type-id="csv-text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/asins.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="10" selection-start-column="10" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FinalTitles.csv">
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="162">
+          <caret line="78936" selection-start-line="78936" selection-end-line="78936" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Final_Features_With_Titles">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="83" selection-start-line="4" selection-start-column="83" selection-end-line="4" selection-end-column="83" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FinalFeatures_latest.csv">
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="83340">
+          <caret line="5556" selection-start-line="5556" selection-end-line="5556" />
+        </state>
       </provider>
     </entry>
   </component>
