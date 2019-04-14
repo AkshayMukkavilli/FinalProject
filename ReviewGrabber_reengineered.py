@@ -112,7 +112,7 @@ for asin in ASIN_list:
 
 
     page = 1
-    fw = open('./review_data/'+asin + '.txt', 'w+', encoding="utf-8")
+    fw = open('./review_data_sentiments/'+asin + '.txt', 'w+', encoding="utf-8")
     while page <= iterator:
         print("Now, working on page: ", page)
         review_link_with_pageno = total_link + str(page)
@@ -157,8 +157,8 @@ for asin in ASIN_list:
         4. Percentage of upper case letters in each review
         5. Percentage of lower case letters in each review
         '''
-        with open('./review_data/'+asin + 'metadata.csv', 'a') as fa:
-            with open('./review_data/'+asin + 'titles.txt', 'a', encoding="utf-8") as fs:
+        with open('./review_data_sentiments/'+asin + 'metadata.csv', 'a') as fa:
+            with open('./review_data_sentiments/'+asin + 'titles.txt', 'a', encoding="utf-8") as fs:
                 for rev in soup_1.findAll('div', {'data-hook': "review", 'class': "a-section review aok-relative"}):
                     just_one_review_out_of_10 = str(rev)
                     mini_soup = BeautifulSoup(just_one_review_out_of_10, "lxml")
@@ -230,8 +230,8 @@ for asin in ASIN_list:
     fw.write(total_reviews)
     fw.close()
 
-    with open('./review_data/'+asin +'titles.txt','r', encoding="utf-8") as title_read:
-        with open('./review_data/'+asin + 'titles_metadata.csv', 'w+') as title_write:
+    with open('./review_data_sentiments/'+asin +'titles.txt','r', encoding="utf-8") as title_read:
+        with open('./review_data_sentiments/'+asin + 'titles_metadata.csv', 'w+') as title_write:
             for t_line in title_read.readlines():
                 title_lower_percentage = 0
                 title_upper_percentage = 0
