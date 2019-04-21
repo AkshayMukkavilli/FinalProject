@@ -6,4 +6,4 @@ df_list = [df_reviews,df_titles]
 final_df = pd.concat(df_list, axis=1)
 print(final_df)
 
-final_df.to_csv('Final_Features_With_Titles', index=False)
+final_df.to_csv('Final_Features_With_Titles.csv', index=False)

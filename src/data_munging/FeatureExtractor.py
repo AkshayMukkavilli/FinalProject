@@ -1,40 +1,15 @@
 import re
 import pandas as pd
 from textblob import TextBlob
-
-ASIN_list = []
-
-
-def percentages_upper_lower(line):
-    no_upper_case_letters = 0
-    no_lower_case_letters = 0
-    total_no_letters = (len(line)-1)
-    # total - 1 since every line has a \n at the end of the line
-    for l in line[:-1]:
-        if l.islower():
-            no_lower_case_letters += 1
-        elif l.isupper():
-            no_upper_case_letters += 1
-        elif l.isspace():
-            total_no_letters -= 1
-        else:
-            pass
-    if total_no_letters == 0:
-        upper_case_percentage = 0
-        lower_case_percentage = 0
-    else:
-        upper_case_percentage = round(((no_upper_case_letters / total_no_letters) * 100))
-        # print(f"Upper Case: {upper_case_percentage}")
-        lower_case_percentage = round(((no_lower_case_letters / total_no_letters) * 100))
-        # print(f"Lower Case: {lower_case_percentage}")
-    return upper_case_percentage, lower_case_percentage
+from src.crawlers.upper_lower_percentages import percentages_upper_lower
 
 
 def get_sentiment_polarity(line):
     sentiment = TextBlob(line)
     return sentiment.polarity
 
-with open('asin_test.txt','r') as fi:
+
+with open('/Users/t_velpac/mission/WorkingCopy/src/crawlers/asins.txt', 'r') as fi:
     ASIN_list = fi.read().splitlines()
 
 for asin in ASIN_list:
@@ -66,7 +41,7 @@ for asin in ASIN_list:
                 break_counter += 1
             break_tags_per_review.append(break_counter)
             new_line = pattern.sub(r'<br/>', f_line)
-            if len(new_line)==2 and new_line[0:1]==" ":
+            if len(new_line) == 2 and new_line[0:1] == " ":
                 paragraphs = 0
                 avg_len_paragraphs = 0
             else:
@@ -83,12 +58,13 @@ for asin in ASIN_list:
         # print(len(paragraphs_per_review))
         # print(f"the number of paragraphs is {paragraphs_per_review}")
 
-    with open('./review_data_sentiments/'+asin+'metadata.csv','r',encoding='utf-8') as fr:
+    with open('./review_data_sentiments/'+asin+'metadata.csv', 'r', encoding='utf-8') as fr:
         df = pd.read_csv('./review_data_sentiments/'+asin+"metadata.csv",
-                         header= None,
+                         header=None,
                          names=["Date", "Stars", "Helpful_Votes"],
                          thousands=r',',
                          index_col=False)
+
         df['Words'] = words_per_review_list
         df['Z_Score_Words'] = (df['Words'] - df['Words'].mean()) / df['Words'].std(ddof=0)
         df['Paragraphs'] = paragraphs_per_review

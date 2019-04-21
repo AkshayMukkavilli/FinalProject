@@ -1,6 +1,6 @@
 import pandas as pd
 
-df = pd.read_csv('Final_Features_With_Titles')
+df = pd.read_csv('Final_Features_With_Titles.csv')
 
 df = df[df['Helpful Votes'] < 100]
 
