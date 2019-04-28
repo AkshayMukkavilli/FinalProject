@@ -99,7 +99,7 @@ for asin in ASIN_list:
     except:
         str_no_of_reviews = int(list_after_splitting.replace(',', ''))
     iterator= int(str_no_of_reviews/10)
-    if (str_no_of_reviews%10) == 0:
+    if (str_no_of_reviews % 10) == 0:
         iterator = int(str_no_of_reviews/10)
     else:
         iterator += 1
