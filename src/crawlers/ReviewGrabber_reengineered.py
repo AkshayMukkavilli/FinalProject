@@ -42,7 +42,7 @@ users = [
 
 header = {'User-Agent': users[random.randint(0, len(users) - 1)]}
 
-with open('asins.txt', 'r') as fi:
+with open('..\\asins\\asins.txt', 'r') as fi:
     ASIN_list = fi.read().splitlines()
 
 i = 0

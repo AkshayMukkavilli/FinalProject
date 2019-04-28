@@ -9,7 +9,7 @@ def get_sentiment_polarity(line):
     return sentiment.polarity
 
 
-with open('/Users/t_velpac/mission/WorkingCopy/src/crawlers/asins.txt', 'r') as fi:
+with open('..\\asins\\asins.txt', 'r') as fi:
     ASIN_list = fi.read().splitlines()
 
 for asin in ASIN_list:
