@@ -1,0 +1,42 @@
+B06XSRLP51
+
+B01IBW4ZRW
+
+
+B06XSRLP51
+B000JF2W8O
+
+
+How to replace multiple substrings of a string?
+
+import re
+
+rep = {"condition1": "", "condition2": "text"} # define desired replacements here
+
+# use these three lines to do the replacement
+rep = dict((re.escape(k), v) for k, v in rep.iteritems())
+pattern = re.compile("|".join(rep.keys()))
+text = pattern.sub(lambda m: rep[re.escape(m.group(0))], text)
+
+
+B0192CTMYG
+B0192CTMW8
+B0192CTMX2
+B0192CTMUU
+B0192CTMXM
+B0192CTMWI
+B0192CTMWS
+B073P962D9
+B002KQ6BT6
+B078GD3DRG
+1503943372
+1451645856
+1616149981
+1250158060
+1501175513
+1250192455
+1501175564
+1524763136
+0307474275
+0375842209
+B009WQ9YMS
